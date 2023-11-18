@@ -1,0 +1,309 @@
+.pg .first{
+    background-image: url("block1.jpeg");
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    display: flexbox;
+    border-left-width: 0cap;
+}
+ .tab {
+    display: inline-block;
+    margin-left: 3em;
+}
+ .tab1 {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.pg .head{
+    color: white;
+    display: flexbox;
+    background-color: rgb(6, 19, 47);
+    position: fixed;
+    margin:0%;
+    width: 98.9%;
+    margin-top: -1%;
+    border-left-width: 0cap;
+}
+.pg .logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+.pg .logo span {
+    color: rgba(247, 247, 247, 0.363);
+}
+.pg .menu .link:hover{
+    background-color: rgba(48, 50, 56, 0.452);
+
+    border: 0cap;
+    color: white;
+    padding: 10px;
+    border-radius: 20%;
+    
+}
+.pg .menu .search:hover{
+    background-color: rgba(82, 84, 87, 0.644);
+
+    border: 0cap;
+    color: white;
+    padding: 10px;
+    border-radius:50%;
+    
+}
+.pg .menu .search{
+    background-color: rgba(48, 50, 56, 0.515);
+
+    border: 0cap;
+    color: white;
+    padding: 10px;
+    border-radius:50%;
+    
+}
+.pg .menu .link{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0cap;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.582);
+}
+.pg .menu .login{
+    color: white;
+    border-color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 15%;
+    padding: 10px;
+}
+.pg .menu .login:hover{
+    color: rgba(255, 255, 255, 0.594);
+    border-color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 15%;
+    padding: 10px;
+}
+.pg .menu .signup{
+    color: rgb(0, 0, 0);
+    border-color: white;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15%;
+}
+.pg .menu .signup:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgba(255, 255, 255, 0.624);
+    background-color: rgba(255, 255, 255, 0.624);
+    padding: 10px;
+    border-radius: 15%;
+}
+.pg .buttn{
+    position: relative;
+    top: -100px;
+    padding: 25px;
+    padding-bottom: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 7%;
+}
+.pg .buttn:hover{
+    background-color: rgb(231, 231, 231);
+}
+.pg .container .button1{
+    color:blueviolet;
+    background-color: rgba(185, 148, 219, 0.491);
+    border:none;
+    padding: 5px;
+    border-radius: 15%;
+}
+.pg .container .button1:hover{
+    background-color: rgba(185, 148, 219, 0.76);
+}
+.pg .container .button2{
+    color:rgb(13, 119, 26);
+    background-color: rgba(148, 219, 171, 0.491);
+    border:none;
+    padding: 5px;
+    border-radius: 15%;
+}
+.pg .container .button2:hover{
+    background-color: rgba(148, 219, 171, 0.773);
+}
+.pg .container p span {
+    color: rgba(0, 0, 0, 0.448);
+}
+
+
+
+
+.a1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a1 .text h1{
+    font-size: 35px;
+    padding-left: 100px;
+    color:blueviolet;
+}
+
+.a1 .text p{
+    font-size: 20px;
+    width: fit-content;
+    line-height: 1.8;
+    background-color: blue;
+    padding: 10px;
+}
+.a1 .text{
+    padding-right: 50px;
+}
+.a1 .text .back{
+    padding-left: 100px;
+}
+.a1 .text .back p{
+    background-color:  rgba(228, 201, 253, 0.31);
+    font-size: small;
+    color:blueviolet;
+    border:solid;
+    border-color: rgba(213, 116, 243, 0.513);
+    border-width: thin;
+    border-radius: 5%;
+}
+
+
+
+
+.a2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a2 .text h1{
+    font-size: 35px;
+    padding-right: 100px;
+    color:rgb(51, 128, 216);
+}
+
+.a2 .text p{
+    font-size: 20px;
+    width: fit-content;
+    line-height: 1.8;
+    background-color: rgba(196, 215, 247, 0.31);
+    padding: 10px;
+}
+.a2 .text{
+    padding-left: 50px;
+}
+.a2 .text .back{
+    padding-right: 100px;
+}
+.a2 .text .back p{
+    background-color:  rgba(196, 215, 247, 0.31);
+    font-size: small;
+    color:rgb(51, 128, 216);
+    border:solid;
+    border-color: rgba(62, 128, 242, 0.31);
+    border-width: thin;
+    border-radius: 5%;
+}
+
+
+
+.a3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a3 .text h1{
+    font-size: 35px;
+    padding-left: 100px;
+    color:rgb(51, 51, 51);
+}
+
+.a3 .text p{
+    font-size:15px;
+    width: fit-content;
+    background-color: none;
+    padding-left: 100px;
+}
+.a3 .text{
+    padding-right: 50px;
+
+
+}
+.a3 .text .back{
+    padding-left: 100px;
+}
+.a3 .text .back button{
+    border-radius: 5%;
+    padding: 10px;
+}
+
+
+
+.a4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a4 .text h1{
+    font-size: 35px;
+    padding-left: 100px;
+    color:rgb(226, 122, 43);
+}
+
+.a4 .text p{
+    font-size: 20px;
+    width: fit-content;
+    line-height: 1.8;
+    background-color: rgb(226, 122, 43);
+    padding: 10px;
+}
+.a4 .text{
+    padding-right: 50px;
+}
+.a4 .text .back{
+    padding-left: 100px;
+}
+.a4 .text .back p{
+    background-color: rgba(255, 218, 197, 0.31);
+    font-size: small;
+    color:rgb(226, 122, 43);
+    border:solid;
+    border-color: rgba(255, 163, 83, 0.513);
+    border-width: thin;
+    border-radius: 5%;
+}
+
+
+
+footer{
+    background-image: url("foot.png");
+    height:10%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flexbox;
+}
+footer h1{
+    text-align: center;
+    color: white;
+}
+footer .get{
+    color: rgb(62, 109, 241);
+    padding: 5px;
+    background-color: white;
+    font-weight: 500;
+    font-size: smaller;
+    border-radius: 5%;
+}
+footer .get:hover{
+    background-color: rgb(196, 222, 245);
+}
